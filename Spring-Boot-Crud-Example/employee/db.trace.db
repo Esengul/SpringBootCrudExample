@@ -1,0 +1,9 @@
+2021-12-27 13:49:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "EMPLOYEE" not found; SQL statement:
+select employee0_.id as id1_0_0_, employee0_.email as email2_0_0_, employee0_.name as name3_0_0_, employee0_.surname as surname4_0_0_ from employee employee0_ where employee0_.id=? [42102-200]
+2021-12-27 13:50:42 jdbc[15]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "EMPLOYEE" not found; SQL statement:
+select * from employee [42102-200]
+2021-12-27 13:54:36 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "EMPLOYEE" not found; SQL statement:
+select employee0_.id as id1_0_0_, employee0_.email as email2_0_0_, employee0_.name as name3_0_0_, employee0_.surname as surname4_0_0_ from employee employee0_ where employee0_.id=? [42102-200]
